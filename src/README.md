@@ -22,5 +22,21 @@ Hay que borrar el último commit "I2" para ello nos situamos en el commit anteri
 
 Le damos a hard porque también queremos que borre el código de ese commit
 
+Realizamos la fusión:
+    
+    nos colocamos en la main con checkout
+    
+    git ->merge ->datos y marcamos --squash
 
+    git ->merge -> interface y marcamos --squash
+
+Hacemos un commit "v1.0" para etiquetar la fusión
+
+Para añadir el .gitignore en el último commit, primero nos colocamos en el .idea(que es lo que vamos a añadir al .gitignore) git->add to .gitignore
+
+Luego comando: git commit --amend
+
+Nos saldrá una pantalla de opciones donde tendremos que escribir el comentario: añadido gitignore y salimos de la pantalla
+
+Ya estaría añadido el gitignore al último commit "v1.0"
 
