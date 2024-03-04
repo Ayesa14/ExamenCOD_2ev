@@ -15,3 +15,6 @@ Hacemos chekout a la rama interface
 Y repetimos el paso anterior, hacemos dos modificaciones y commits de ellas
 
 Repetimos el paso, checkout a la rama readme y hacemos un commit de lo que hemos ido añadiendo
+
+Nos situamos en la main, checkout main
+
