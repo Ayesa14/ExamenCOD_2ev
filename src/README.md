@@ -40,3 +40,9 @@ Nos saldrá una pantalla de opciones donde tendremos que escribir el comentario:
 
 Ya estaría añadido el gitignore al último commit "v1.0"
 
+Creamos una etiqueta con: git tag -a v1.0 -m "v1.0"
+
+La subimos con git push origin --tags
+
+En el github, vamos a release->new release, y elegimos la etiqueta que hemos creado v1.0, añadimos una descripción y creamos la release
+
