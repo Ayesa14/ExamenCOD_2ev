@@ -16,5 +16,11 @@ Y repetimos el paso anterior, hacemos dos modificaciones y commits de ellas
 
 Repetimos el paso, checkout a la rama readme y hacemos un commit de lo que hemos ido añadiendo
 
-Nos situamos en la main, checkout main
+Nos situamos en interfaz con checkout
+
+Hay que borrar el último commit "I2" para ello nos situamos en el commit anterior a él "I1" y le damos al boton derecho->reset current branch to here->hard
+
+Le damos a hard porque también queremos que borre el código de ese commit
+
+
 
